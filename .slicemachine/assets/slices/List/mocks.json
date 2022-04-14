@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "list",
+    "items": [],
+    "primary": {
+      "list": [
+        {
+          "type": "paragraph",
+          "text": "Excepteur aliqua eu duis laborum duis. Nostrud esse proident exercitation proident. Duis sint adipisicing adipisicing quis aute.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "contact-title": {
+        "config": {
+          "label": "ContactTitle",
+          "placeholder": "Contact Title",
+          "allowTargetBlank": true,
+          "single": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6"
+        },
+        "type": "StructuredText"
+      },
+      "email": {
+        "config": {
+          "label": "Email",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        },
+        "type": "StructuredText"
+      },
+      "phone": {
+        "config": {
+          "label": "Phone",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        },
+        "type": "StructuredText"
+      },
+      "logo": {
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "hours-title": {
+        "config": {
+          "label": "HoursTitle",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      },
+      "hours": {
+        "config": {
+          "label": "hours",
+          "placeholder": "",
+          "fields": {
+            "days-label": {
+              "config": {
+                "label": "Days Label",
+                "placeholder": "Days Label",
+                "allowTargetBlank": true,
+                "single": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,image,list-item,o-list-item"
+              },
+              "type": "StructuredText"
+            },
+            "hours": {
+              "config": {
+                "label": "Hours",
+                "placeholder": "Hours",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              },
+              "type": "StructuredText"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    }
+  }
+}

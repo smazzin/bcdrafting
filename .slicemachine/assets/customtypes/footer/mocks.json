@@ -1,0 +1,110 @@
+{
+  "id": "a5fb3a87-a904-42cd-851a-8e8071e31884",
+  "uid": "ut-maiores-necessitatibus",
+  "type": "footer",
+  "data": {
+    "contact-title": [
+      {
+        "type": "paragraph",
+        "text": "Laboris commodo officia nisi fugiat ex aute elit adipisicing pariatur sint ea officia.",
+        "spans": []
+      }
+    ],
+    "email": [
+      {
+        "type": "paragraph",
+        "text": "Ad incididunt quis quis aliquip exercitation incididunt ad sit amet ex nisi aliquip incididunt. Deserunt do non in adipisicing amet tempor aliqua veniam minim magna quis ullamco duis reprehenderit exercitation. Aliqua non laborum cupidatat est proident ea.",
+        "spans": []
+      }
+    ],
+    "phone": [
+      {
+        "type": "paragraph",
+        "text": "Ex consectetur cillum cupidatat proident culpa anim eu deserunt deserunt velit amet consequat nostrud. Consequat ullamco ipsum ipsum. Duis excepteur laboris ea voluptate consequat est ex.",
+        "spans": []
+      }
+    ],
+    "logo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+    },
+    "hours-title": [
+      {
+        "type": "paragraph",
+        "text": "Tempor irure consectetur qui. Quis officia exercitation incididunt dolore.",
+        "spans": []
+      }
+    ],
+    "hours": [
+      {
+        "days-label": [
+          {
+            "type": "paragraph",
+            "text": "Proident laborum excepteur duis irure ex amet incididunt enim exercitation nulla reprehenderit tempor sint. Minim id veniam esse ut ullamco cillum labore voluptate est mollit occaecat deserunt.",
+            "spans": []
+          }
+        ],
+        "hours": [
+          {
+            "type": "paragraph",
+            "text": "Cillum laborum occaecat ipsum elit amet in deserunt. Aliquip veniam consectetur nisi cupidatat cillum esse minim ullamco. Laborum aute sunt in commodo non labore adipisicing.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "days-label": [
+          {
+            "type": "paragraph",
+            "text": "Proident sunt duis est excepteur consequat sunt labore consectetur do.",
+            "spans": []
+          }
+        ],
+        "hours": [
+          {
+            "type": "paragraph",
+            "text": "Officia nulla sunt commodo tempor mollit nisi reprehenderit laboris consectetur.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "days-label": [
+          {
+            "type": "paragraph",
+            "text": "Cupidatat commodo ipsum esse cillum consequat.",
+            "spans": []
+          }
+        ],
+        "hours": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip pariatur duis ipsum exercitation ea ea minim minim non aute minim. Et minim elit do commodo pariatur aliqua ea cillum voluptate.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "days-label": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua laboris sint nisi occaecat aliquip nostrud et cillum. Commodo consequat consectetur reprehenderit esse non nisi nulla consectetur do ad dolore ex consequat sunt. Ad enim velit qui anim.",
+            "spans": []
+          }
+        ],
+        "hours": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate ut eu deserunt cillum laborum est voluptate. Cupidatat adipisicing cillum aliqua ea Lorem est fugiat qui est reprehenderit pariatur esse eu.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}
