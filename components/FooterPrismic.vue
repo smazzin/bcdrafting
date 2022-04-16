@@ -13,12 +13,6 @@
 					<a href="tel:111-111-1111">111-111-1111</a>
 				</li>
 			</ul>
-			<!-- <ul>
-				<li v-for="contactData in $store.state.footer.contact" :key="contactData.id">
-					<span>{{ $prismic.asText(contactData['contact-label']) }}</span>
-					<a :href="`tel:${ contactData.text }`">{{ contactData.text }}</a>
-				</li>
-			</ul> -->
 		</div>
 		<div class="logo">
 			<nuxt-link to="/" class="logo">

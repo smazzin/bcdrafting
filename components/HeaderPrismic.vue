@@ -1,6 +1,8 @@
  <template>
   <header class="navbar container" :class="{ menuActive: menuActive }">
-    <nuxt-link to="/" class="logo">{{ $prismic.asText($store.state.menu.title) }}</nuxt-link>
+    <nuxt-link to="/" class="logo">
+      <prismic-image :field="$store.state.logo.image" />
+    </nuxt-link>
     <nav>
       <button id="menu-toggler" data-class="menu-active" class="hamburger" @click="toggle">
           <span class="hamburger-line hamburger-line-top"></span>

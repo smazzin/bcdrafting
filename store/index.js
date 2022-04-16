@@ -1,17 +1,17 @@
 export const state = () => ({
-	menu: {},
+	logo: {},
 	footer: {}
 })
 
 export const mutations = {
-	SET_MENU(state, menu) {
-		state.menu = menu
+	SET_LOGO(state, logo) {
+		state.logo = logo
 	},
 	SET_FOOTER(state, footer) {
 			state.footer = footer
 	},
-	SET_ERROR_MENU(state, error) {
-		state.menu = error
+	SET_ERROR_LOGO(state, error) {
+		state.logo = error
 	},
 	SET_ERROR_FOOTER(state, error) {
 		state.footer = error
@@ -19,13 +19,13 @@ export const mutations = {
 }
 
 export const actions = {
-	async fetchMenu({ commit }, $prismic) {
+	async fetchLogo({ commit }, $prismic) {
 		try {
-			const menu = (await $prismic.api.getSingle('menu')).data
+			const logo = (await $prismic.api.getSingle('logo')).data
 
-			commit('SET_MENU', menu)
+			commit('SET_LOGO', logo)
 		} catch (e) {
-			const error = 'Please create a menu document'
+			const error = 'Please add a logo document'
 
 			commit('SET_ERROR', error);
 		}

@@ -3,7 +3,6 @@
     <div>
       <prismic-rich-text :field="slice.primary.title" class="title" />
       <prismic-rich-text :field="slice.primary.description" />
-      <prismic-rich-text :field="slice.primary.list" />
     </div>
     <div>
       <prismic-image :field="slice.primary.image" class="ml-auto" />

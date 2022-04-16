@@ -59,18 +59,18 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Productize killer e-markets",
+                  "text": "Architect global eyeballs",
                   "spans": []
                 }
               ],
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Fugiat labore in nisi magna esse aute est amet proident minim Lorem cillum deserunt. Lorem enim commodo et velit cupidatat magna. Laboris fugiat deserunt ad ea velit qui cupidatat reprehenderit nulla occaecat minim sunt exercitation occaecat nostrud.",
+                  "text": "Ex in mollit voluptate aute velit qui proident non laboris nisi velit.",
                   "spans": []
                 }
               ],
-              "phone-number": "syndicate one-to-one functionalities"
+              "phone-number": "e-enable real-time convergence"
             }
           }
         },
@@ -83,7 +83,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/CallToAction/default-slice/preview.png",
             "width": 800,
-            "height": 391
+            "height": 279
           }
         }
       },
@@ -105,6 +105,14 @@
               "version": "sktwi1xtmkfgx8626",
               "description": "FeaturedImage",
               "primary": {
+                "backgroundImage": {
+                  "config": {
+                    "label": "backgroundImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
                 "title": {
                   "type": "StructuredText",
                   "config": {
@@ -146,17 +154,26 @@
             "slice_type": "featured_image",
             "items": [],
             "primary": {
+              "backgroundImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+              },
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Brand 24/7 applications",
+                  "text": "E-enable dot-com functionalities",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Consequat minim incididunt duis qui ex Lorem ad. Velit commodo aliquip duis dolor magna magna velit aliquip nisi consequat et dolore aliquip do elit. Nostrud irure laborum cillum proident quis culpa reprehenderit in quis eu eiusmod magna.",
+                  "text": "Ea exercitation velit duis ad veniam non. Pariatur dolor ad aliqua elit duis eiusmod ad non nostrud ipsum.",
                   "spans": []
                 }
               ],
@@ -167,7 +184,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=727&h=402&fit=crop"
+                "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=727&h=402&fit=crop"
               }
             }
           }
@@ -181,7 +198,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/FeaturedImage/default-slice/preview.png",
             "width": 800,
-            "height": 327
+            "height": 210
           }
         }
       },
@@ -239,7 +256,7 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
                 }
               },
               {
@@ -250,29 +267,7 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
-                }
-              },
-              {
-                "image": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
-                }
-              },
-              {
-                "image": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
                 }
               }
             ],
@@ -280,7 +275,7 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Leverage cutting-edge partnerships",
+                  "text": "Repurpose mission-critical users",
                   "spans": []
                 }
               ]
@@ -296,7 +291,117 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/FeaturedProjects/default-slice/preview.png",
             "width": 800,
-            "height": 299
+            "height": 318
+          }
+        }
+      },
+      "homepage_featured": {
+        "library": "slices",
+        "id": "homepage_featured",
+        "name": "HomepageFeatured",
+        "description": "HomepageFeatured",
+        "model": {
+          "id": "homepage_featured",
+          "type": "SharedSlice",
+          "name": "HomepageFeatured",
+          "description": "HomepageFeatured",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HomepageFeatured",
+              "primary": {
+                "backgroundImage": {
+                  "config": {
+                    "label": "backgroundImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "homepage_featured",
+            "items": [],
+            "primary": {
+              "backgroundImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+              },
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Reintermediate cutting-edge content",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Labore ea in esse ea tempor consequat. Ipsum consequat ex minim irure duis consequat mollit reprehenderit. Labore laboris dolore elit Lorem cillum laboris tempor esse veniam culpa sit aliqua in sunt.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/HomepageFeatured/default-slice/preview.png",
+            "width": 800,
+            "height": 351
           }
         }
       },
@@ -404,7 +509,7 @@
               "title": [
                 {
                   "type": "paragraph",
-                  "text": "Officia Lorem et aute id est tempor sunt nulla deserunt consectetur exercitation occaecat sint.",
+                  "text": "Esse non cillum adipisicing occaecat proident consequat nisi proident do pariatur nisi. Consequat veniam sit incididunt mollit. Laboris elit aliquip sit commodo anim.",
                   "spans": []
                 }
               ]
@@ -420,7 +525,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/PageTitle/default-slice/preview.png",
             "width": 800,
-            "height": 28
+            "height": 64
           }
         }
       },
@@ -510,57 +615,57 @@
                 "title": [
                   {
                     "type": "paragraph",
-                    "text": "Cupidatat incididunt deserunt duis consequat eiusmod incididunt non nostrud elit pariatur Lorem nostrud. Est nostrud sunt occaecat aliqua velit sit proident. Excepteur ea sint sunt nostrud aliqua deserunt amet nisi laboris.",
+                    "text": "Nostrud occaecat qui quis ullamco eu ipsum reprehenderit magna proident ad eiusmod in occaecat tempor laboris.",
                     "spans": []
                   }
                 ],
                 "description": [
                   {
                     "type": "paragraph",
-                    "text": "Sint ipsum est excepteur culpa culpa sunt nisi.",
+                    "text": "Velit proident laboris ad eu tempor aute occaecat nostrud nostrud velit ut qui. Ex incididunt deserunt proident.",
                     "spans": []
                   }
                 ],
-                "icon": "engage best-of-breed mindshare",
-                "background-color": "bg-navy",
-                "text-color": "text-navy"
-              },
-              {
-                "title": [
-                  {
-                    "type": "paragraph",
-                    "text": "Amet commodo deserunt nulla do Lorem in ad amet. Do sunt nostrud enim. Mollit eiusmod tempor culpa anim.",
-                    "spans": []
-                  }
-                ],
-                "description": [
-                  {
-                    "type": "paragraph",
-                    "text": "Ad in pariatur duis dolor sit.",
-                    "spans": []
-                  }
-                ],
-                "icon": "aggregate mission-critical systems",
+                "icon": "utilize bleeding-edge infrastructures",
                 "background-color": "bg-light-green",
-                "text-color": "text-navy"
+                "text-color": "text-light-green"
               },
               {
                 "title": [
                   {
                     "type": "paragraph",
-                    "text": "Ipsum dolore nostrud ea.",
+                    "text": "Esse ex culpa velit laboris ipsum. Ipsum aute incididunt dolor cupidatat ex dolore amet exercitation Lorem ea occaecat voluptate excepteur et irure. Exercitation ullamco nisi dolore duis deserunt ad nulla Lorem veniam cupidatat.",
                     "spans": []
                   }
                 ],
                 "description": [
                   {
                     "type": "paragraph",
-                    "text": "Ea ea id irure reprehenderit ad Lorem dolore et incididunt dolore.",
+                    "text": "Dolor irure aliquip consectetur irure mollit. Nulla pariatur fugiat mollit veniam exercitation ullamco aliquip consectetur aliqua incididunt laborum aute minim.",
                     "spans": []
                   }
                 ],
-                "icon": "engineer turn-key functionalities",
+                "icon": "disintermediate customized relationships",
                 "background-color": "bg-green",
+                "text-color": "text-navy"
+              },
+              {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consequat sunt ut sint magna officia sint qui aliqua sit aute velit. Culpa pariatur exercitation laborum sint laboris elit proident commodo sunt mollit.",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Amet sint duis Lorem officia in consequat mollit do incididunt duis officia sit esse occaecat. Qui Lorem do mollit consequat ipsum quis amet. Id voluptate voluptate mollit pariatur consectetur pariatur laboris laboris irure ad sit officia nulla dolor sint.",
+                    "spans": []
+                  }
+                ],
+                "icon": "utilize clicks-and-mortar supply-chains",
+                "background-color": "bg-light-green",
                 "text-color": "text-gray"
               }
             ],
@@ -576,7 +681,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/TextColumnSlice/default-slice/preview.png",
             "width": 800,
-            "height": 332
+            "height": 1236
           }
         }
       }

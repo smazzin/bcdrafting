@@ -41,17 +41,26 @@
         "slice_type": "featured_image",
         "items": [],
         "primary": {
+          "backgroundImage": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+          },
           "title": [
             {
               "type": "heading1",
-              "text": "Generate viral networks",
+              "text": "Enable next-generation users",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Laboris fugiat sint minim velit cillum ipsum voluptate qui ad dolore ullamco irure ullamco. Anim incididunt enim duis.",
+              "text": "Sit occaecat excepteur magna pariatur ullamco magna ut qui.",
               "spans": []
             }
           ],
@@ -62,7 +71,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=727&h=402&fit=crop"
+            "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=727&h=402&fit=crop"
           }
         }
       }
@@ -77,39 +86,58 @@
             "title": [
               {
                 "type": "paragraph",
-                "text": "Nisi elit ad id amet enim ut.",
+                "text": "Cupidatat incididunt deserunt duis consequat eiusmod incididunt non nostrud elit pariatur Lorem nostrud. Est nostrud sunt occaecat aliqua velit sit proident. Excepteur ea sint sunt nostrud aliqua deserunt amet nisi laboris.",
                 "spans": []
               }
             ],
             "description": [
               {
                 "type": "paragraph",
-                "text": "Pariatur enim commodo dolor aute dolor ipsum non laborum laboris est sint magna quis esse. Ex culpa consectetur deserunt aute eu ex amet anim incididunt do. Voluptate laboris Lorem mollit proident labore id do est qui aliquip et.",
+                "text": "Sint ipsum est excepteur culpa culpa sunt nisi.",
                 "spans": []
               }
             ],
-            "icon": "disintermediate B2B web services",
-            "background-color": "bg-gray",
-            "text-color": "text-gray"
+            "icon": "engage best-of-breed mindshare",
+            "background-color": "bg-navy",
+            "text-color": "text-navy"
           },
           {
             "title": [
               {
                 "type": "paragraph",
-                "text": "Ea esse laborum laborum do Lorem qui consectetur exercitation ipsum ex. Ipsum sunt esse elit ea cillum laboris consectetur ex magna. Cillum veniam labore dolore veniam deserunt sunt culpa elit id fugiat id.",
+                "text": "Amet commodo deserunt nulla do Lorem in ad amet. Do sunt nostrud enim. Mollit eiusmod tempor culpa anim.",
                 "spans": []
               }
             ],
             "description": [
               {
                 "type": "paragraph",
-                "text": "Sunt nisi ut exercitation incididunt Lorem deserunt laboris eiusmod.",
+                "text": "Ad in pariatur duis dolor sit.",
                 "spans": []
               }
             ],
-            "icon": "monetize enterprise users",
+            "icon": "aggregate mission-critical systems",
+            "background-color": "bg-light-green",
+            "text-color": "text-navy"
+          },
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Ipsum dolore nostrud ea.",
+                "spans": []
+              }
+            ],
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Ea ea id irure reprehenderit ad Lorem dolore et incididunt dolore.",
+                "spans": []
+              }
+            ],
+            "icon": "engineer turn-key functionalities",
             "background-color": "bg-green",
-            "text-color": "text-green"
+            "text-color": "text-gray"
           }
         ],
         "primary": {}
@@ -125,7 +153,7 @@
           "title": [
             {
               "type": "paragraph",
-              "text": "Minim ipsum qui cillum aliquip enim anim fugiat anim aliqua. Mollit culpa sit tempor ut. Sint anim sint sit id deserunt commodo.",
+              "text": "Officia Lorem et aute id est tempor sunt nulla deserunt consectetur exercitation occaecat sint.",
               "spans": []
             }
           ]
@@ -159,18 +187,18 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Cultivate back-end metrics",
+              "text": "Productize killer e-markets",
               "spans": []
             }
           ],
           "text": [
             {
               "type": "paragraph",
-              "text": "Cupidatat enim ad est. Mollit velit duis pariatur dolore irure eu laborum labore incididunt exercitation ea.",
+              "text": "Fugiat labore in nisi magna esse aute est amet proident minim Lorem cillum deserunt. Lorem enim commodo et velit cupidatat magna. Laboris fugiat deserunt ad ea velit qui cupidatat reprehenderit nulla occaecat minim sunt exercitation occaecat nostrud.",
               "spans": []
             }
           ],
-          "phone-number": "utilize user-centric technologies"
+          "phone-number": "syndicate one-to-one functionalities"
         }
       }
     ],
@@ -180,39 +208,6 @@
         "name": "Default slice",
         "slice_type": "featured_projects",
         "items": [
-          {
-            "image": {
-              "dimensions": {
-                "width": 900,
-                "height": 500
-              },
-              "alt": "Placeholder image",
-              "copyright": null,
-              "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
-            }
-          },
-          {
-            "image": {
-              "dimensions": {
-                "width": 900,
-                "height": 500
-              },
-              "alt": "Placeholder image",
-              "copyright": null,
-              "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
-            }
-          },
-          {
-            "image": {
-              "dimensions": {
-                "width": 900,
-                "height": 500
-              },
-              "alt": "Placeholder image",
-              "copyright": null,
-              "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
-            }
-          },
           {
             "image": {
               "dimensions": {
@@ -232,7 +227,7 @@
               },
               "alt": "Placeholder image",
               "copyright": null,
-              "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+              "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
             }
           },
           {
@@ -243,7 +238,18 @@
               },
               "alt": "Placeholder image",
               "copyright": null,
-              "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+              "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
             }
           }
         ],
@@ -251,18 +257,59 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Strategize synergistic models",
+              "text": "Leverage cutting-edge partnerships",
               "spans": []
             }
           ]
         }
       }
     ],
-    "Nav": {}
+    "Nav": {},
+    "HomepageFeatured": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "homepage_featured",
+        "items": [],
+        "primary": {
+          "backgroundImage": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+          },
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Synthesize holistic vortals",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Anim laboris dolor in sit pariatur aliquip. Excepteur culpa velit excepteur fugiat amet ea non sit occaecat Lorem nostrud cupidatat cillum et mollit.",
+              "spans": []
+            }
+          ],
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+          }
+        }
+      }
+    ]
   },
   "_cts": {
     "page": {},
-    "menu": {},
     "footer": {
       "hours": {
         "days-label": {
@@ -310,6 +357,7 @@
       }
     },
     "home-page": {},
-    "nav": {}
+    "nav": {},
+    "logo": {}
   }
 }

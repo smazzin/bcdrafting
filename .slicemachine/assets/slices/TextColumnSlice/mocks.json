@@ -8,57 +8,57 @@
         "title": [
           {
             "type": "paragraph",
-            "text": "Cupidatat incididunt deserunt duis consequat eiusmod incididunt non nostrud elit pariatur Lorem nostrud. Est nostrud sunt occaecat aliqua velit sit proident. Excepteur ea sint sunt nostrud aliqua deserunt amet nisi laboris.",
+            "text": "Nostrud occaecat qui quis ullamco eu ipsum reprehenderit magna proident ad eiusmod in occaecat tempor laboris.",
             "spans": []
           }
         ],
         "description": [
           {
             "type": "paragraph",
-            "text": "Sint ipsum est excepteur culpa culpa sunt nisi.",
+            "text": "Velit proident laboris ad eu tempor aute occaecat nostrud nostrud velit ut qui. Ex incididunt deserunt proident.",
             "spans": []
           }
         ],
-        "icon": "engage best-of-breed mindshare",
-        "background-color": "bg-navy",
-        "text-color": "text-navy"
-      },
-      {
-        "title": [
-          {
-            "type": "paragraph",
-            "text": "Amet commodo deserunt nulla do Lorem in ad amet. Do sunt nostrud enim. Mollit eiusmod tempor culpa anim.",
-            "spans": []
-          }
-        ],
-        "description": [
-          {
-            "type": "paragraph",
-            "text": "Ad in pariatur duis dolor sit.",
-            "spans": []
-          }
-        ],
-        "icon": "aggregate mission-critical systems",
+        "icon": "utilize bleeding-edge infrastructures",
         "background-color": "bg-light-green",
-        "text-color": "text-navy"
+        "text-color": "text-light-green"
       },
       {
         "title": [
           {
             "type": "paragraph",
-            "text": "Ipsum dolore nostrud ea.",
+            "text": "Esse ex culpa velit laboris ipsum. Ipsum aute incididunt dolor cupidatat ex dolore amet exercitation Lorem ea occaecat voluptate excepteur et irure. Exercitation ullamco nisi dolore duis deserunt ad nulla Lorem veniam cupidatat.",
             "spans": []
           }
         ],
         "description": [
           {
             "type": "paragraph",
-            "text": "Ea ea id irure reprehenderit ad Lorem dolore et incididunt dolore.",
+            "text": "Dolor irure aliquip consectetur irure mollit. Nulla pariatur fugiat mollit veniam exercitation ullamco aliquip consectetur aliqua incididunt laborum aute minim.",
             "spans": []
           }
         ],
-        "icon": "engineer turn-key functionalities",
+        "icon": "disintermediate customized relationships",
         "background-color": "bg-green",
+        "text-color": "text-navy"
+      },
+      {
+        "title": [
+          {
+            "type": "paragraph",
+            "text": "Consequat sunt ut sint magna officia sint qui aliqua sit aute velit. Culpa pariatur exercitation laborum sint laboris elit proident commodo sunt mollit.",
+            "spans": []
+          }
+        ],
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Amet sint duis Lorem officia in consequat mollit do incididunt duis officia sit esse occaecat. Qui Lorem do mollit consequat ipsum quis amet. Id voluptate voluptate mollit pariatur consectetur pariatur laboris laboris irure ad sit officia nulla dolor sint.",
+            "spans": []
+          }
+        ],
+        "icon": "utilize clicks-and-mortar supply-chains",
+        "background-color": "bg-light-green",
         "text-color": "text-gray"
       }
     ],
