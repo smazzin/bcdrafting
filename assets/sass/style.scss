@@ -24,6 +24,12 @@
     margin-left: .75em;
     left: 0;
   }
+  p {
+    margin-top: 0;
+    a {
+      color: currentColor;
+    }
+  }
 }
 
 .pencil-ruler {
@@ -35,6 +41,12 @@
     position: absolute;
     margin-left: .75em;
     left: 0;
+  }
+  p {
+    margin-top: 0;
+    a {
+      color: currentColor;
+    }
   }
 }
 
