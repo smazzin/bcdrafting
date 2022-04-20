@@ -482,6 +482,127 @@
           }
         }
       },
+      "image_grid": {
+        "library": "slices",
+        "id": "image_grid",
+        "name": "ImageGrid",
+        "description": "ImageGrid",
+        "model": {
+          "id": "image_grid",
+          "type": "SharedSlice",
+          "name": "ImageGrid",
+          "description": "ImageGrid",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageGrid",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "heading1,heading2,heading3,heading4,heading5,heading6"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "image_grid",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Streamline ubiquitous vortals",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Elit adipisicing culpa deserunt nostrud sunt laboris minim laborum nulla esse nostrud nostrud qui ex. Ut elit adipisicing amet et aliqua consequat. Exercitation est excepteur minim duis culpa ullamco culpa anim commodo fugiat ea.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/ImageGrid/default-slice/preview.png",
+            "width": 800,
+            "height": 155
+          }
+        }
+      },
       "list": {
         "library": "slices",
         "id": "list",
@@ -505,7 +626,7 @@
                     "label": "list",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "list-item,o-list-item"
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   },
                   "type": "StructuredText"
                 }
@@ -524,7 +645,7 @@
               "list": [
                 {
                   "type": "paragraph",
-                  "text": "Excepteur aliqua eu duis laborum duis. Nostrud esse proident exercitation proident. Duis sint adipisicing adipisicing quis aute.",
+                  "text": "Proident nisi tempor reprehenderit cillum exercitation ex occaecat esse. Eu ex aliqua sit magna ex minim cillum veniam.",
                   "spans": []
                 }
               ]
@@ -540,7 +661,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/List/default-slice/preview.png",
             "width": 800,
-            "height": 56
+            "height": 64
           }
         }
       },

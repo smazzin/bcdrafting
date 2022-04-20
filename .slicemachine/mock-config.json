@@ -163,8 +163,8 @@
         }
       }
     ],
-    "List": [
-      {
+    "List": {
+      "0": {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "list",
@@ -178,8 +178,18 @@
             }
           ]
         }
+      },
+      "default-slice": {
+        "primary": {
+          "list": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
-    ],
+    },
     "CallToAction": [
       {
         "variation": "default-slice",
@@ -287,7 +297,30 @@
           }
         }
       }
-    ]
+    ],
+    "ImageGrid": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "image": {
+            "content": "https://images.unsplash.com/photo-1448630360428-65456885c650"
+          }
+        }
+      }
+    }
   },
   "_cts": {
     "page": {},
