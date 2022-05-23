@@ -2,7 +2,7 @@
   max-width: 200px;
 }
 .navbar {
-  border-bottom: 1px solid var(--clr-gray-light-gray);
+  border-bottom: 1px solid var(--clr-gray-light);
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5em;
@@ -88,7 +88,7 @@
   transition: all .25s ease-in; 
   
   @media screen and (max-width: 768px) {
-    background: var(--clr-gray-light-gray);
+    background: var(--clr-gray-light);
     flex-direction: column;
     justify-content: center;
     opacity: 0;
@@ -143,11 +143,11 @@
     border-top: 1px solid var (--clr-green-light);
     display: none;
     position: absolute;
-    background-color: var(--clr-gray-light-gray);
+    background-color: var(--clr-gray-light);
     padding: 5px 5px;
     list-style: none; 
     width: auto;   
-    background: var(--clr-gray-light-gray);
+    background: var(--clr-gray-light);
     @media screen and (max-width: 768px) {
       position: relative;
       width: 100%;

@@ -87,6 +87,84 @@
           }
         }
       },
+      "contact_form": {
+        "library": "slices",
+        "id": "contact_form",
+        "name": "ContactForm",
+        "description": "ContactForm",
+        "model": {
+          "id": "contact_form",
+          "type": "SharedSlice",
+          "name": "ContactForm",
+          "description": "ContactForm",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContactForm",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "contact_form",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Irure quis nostrud in commodo.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Fugiat eu ullamco laborum officia anim occaecat aliquip anim ipsum nostrud consectetur duis. Culpa est reprehenderit non qui tempor nisi aliqua exercitation anim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/bcdrafting/.slicemachine/assets/slices/ContactForm/default-slice/preview.png",
+            "width": 800,
+            "height": 368
+          }
+        }
+      },
       "featured_image": {
         "library": "slices",
         "id": "featured_image",

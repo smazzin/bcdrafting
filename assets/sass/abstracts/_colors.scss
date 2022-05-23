@@ -7,8 +7,8 @@ $green: 			#56934E;
 $light-green: #98C33E;
 
 // grays
-$light-gray: 	#DFE6EC;
-$gray: 				#9CA1A3;
+$light-gray: 	lighten(#DFE6EC, 5%);
+$gray: 				#DFE6EC;
 
 $colors: (
 	"navy": (
@@ -20,6 +20,6 @@ $colors: (
 	),
 	"gray": (
 		"base": $gray,
-		"light-gray": $light-gray
+		"light": $light-gray
 	)
 )

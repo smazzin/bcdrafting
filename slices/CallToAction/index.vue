@@ -1,8 +1,10 @@
 <template>
-  <section class="container text-center mb-5 p-3 bg-light-gray">
-    <prismic-rich-text :field="slice.primary.title" class="title" />
-    <prismic-rich-text :field="slice.primary.text" />
-    <a class="btn" :href="`tel:${ slice.primary['phone-number'] }`">{{ slice.primary['phone-number'] }}</a>
+  <section class="p-3 bg-gray-light">
+    <div class="container text-center">
+      <prismic-rich-text :field="slice.primary.title" class="title" />
+      <prismic-rich-text :field="slice.primary.text" />
+      <a class="btn" :href="`tel:${ slice.primary['phone-number'] }`">{{ slice.primary['phone-number'] }}</a>
+    </div>
   </section>
 </template>
 
