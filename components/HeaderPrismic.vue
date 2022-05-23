@@ -30,6 +30,11 @@
 <script>
 export default {
   name: 'header-prismic',
+    watch: {
+      '$route' () {
+        this.menuActive = false
+      }
+    },
     data() {
       return {
         navData: {},
