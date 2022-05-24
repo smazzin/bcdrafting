@@ -1,5 +1,5 @@
 <template>
-    <prismic-rich-text :field="slice.primary.title" class="title text-center" />
+    <prismic-rich-text :field="slice.primary.title" class="py-2 text-center" />
 </template>
 
 <script>
