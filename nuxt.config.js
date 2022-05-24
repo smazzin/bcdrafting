@@ -49,6 +49,7 @@ export default {
     }
   }], ["nuxt-sm"], ["@nuxtjs/sitemap"]],
   sitemap: {
+    hostname: 'https://bcdrafting-dev.netlify.app',
     gzip: true,
     // routes: async () => {
     //   const api = await Prismic.getApi(sm.apiEndpoint)
