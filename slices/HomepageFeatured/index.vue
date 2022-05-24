@@ -1,5 +1,5 @@
 <template>
-  <section class="container grid-2 mb-5">
+  <section class="container grid-2 mb-5 mt-5">
     <div :style="{ backgroundImage: 'url(' + slice.primary.backgroundImage.url + ')' }">
       <prismic-rich-text :field="slice.primary.title" class="title" />
       <prismic-rich-text :field="slice.primary.description" />
