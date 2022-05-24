@@ -47,7 +47,15 @@ export default {
         path: "/:uid"
       }]
     }
-  }], ["nuxt-sm"]],
+  }], ["nuxt-sm"], ["@nuxtjs/sitemap"]],
+  sitemap: {
+    gzip: true,
+    // routes: async () => {
+    //   const api = await Prismic.getApi(sm.apiEndpoint)
+    //   const pages = await api.query(Prismic.Predicate.at("document.type", "pages"));
+    //   return [...pages.map((i) => `/${i.uid}`)];
+    // },
+  },
   generate: {
     fallback: true
   },
