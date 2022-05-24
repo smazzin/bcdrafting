@@ -47,7 +47,10 @@ export default {
         path: "/:uid"
       }]
     }
-  }], ["nuxt-sm"], ["@nuxtjs/sitemap"]],
+  }],
+    ["nuxt-sm"],
+    ["@nuxtjs/sitemap"],
+    ['@nuxtjs/robots']],
   sitemap: {
     hostname: 'https://bcdrafting-dev.netlify.app',
     gzip: true,
