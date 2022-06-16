@@ -1,6 +1,6 @@
 {
-  "id": "home-page",
-  "label": "Home Page",
+  "id": "homepage",
+  "label": "Homepage",
   "repeatable": false,
   "status": true,
   "json": {
@@ -37,6 +37,30 @@
             }
           }
         }
+      }
+    },
+    "SEO": {
+      "metaTitle": {
+        "config": {
+          "label": "Meta title",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "metaDescription": {
+        "config": {
+          "label": "Meta description",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "metaImage": {
+        "config": {
+          "label": "Meta image",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
       }
     }
   }

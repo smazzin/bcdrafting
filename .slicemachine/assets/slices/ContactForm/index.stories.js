@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"contact_form","items":[],"primary":{"title":[{"type":"paragraph","text":"Irure quis nostrud in commodo.","spans":[]}],"description":[{"type":"paragraph","text":"Fugiat eu ullamco laborum officia anim occaecat aliquip anim ipsum nostrud consectetur duis. Culpa est reprehenderit non qui tempor nisi aliqua exercitation anim.","spans":[]}]},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"contact_form","items":[],"primary":{"title":[{"type":"paragraph","text":"Aliquip non laboris irure duis. Sunt quis cillum velit enim ea sunt est ex elit aute mollit eiusmod excepteur. Irure nostrud sunt voluptate voluptate elit magna veniam non do duis.","spans":[]}],"description":[{"type":"paragraph","text":"Minim nostrud adipisicing eiusmod duis non nulla sit voluptate pariatur nulla. Est adipisicing tempor nostrud cillum nostrud tempor nostrud deserunt est.","spans":[]}]},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

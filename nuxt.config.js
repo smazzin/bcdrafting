@@ -1,12 +1,17 @@
-import smConfig from "./sm.json";
-
-if (!smConfig.apiEndpoint) {
-  console.warn("Looks like Slice Machine hasn't been bootstraped already.\nCheck the `Getting Started` section of the README file :)");
-}
+import smConfig from './sm.json'
+import axios from 'axios'
+import {
+  getPrismicRedirects,
+  prismicRedirects,
+} from './plugins/createRedirects'
+getPrismicRedirects()
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
+  publicRuntimeConfig: {
+    baseURL: process.env.NODE_ENV === 'production' ? 'https://bcdrafting.com' : 'https://bcdrafting-dev.netlify.app'
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: "slice-library-starter-nuxt",
@@ -33,43 +38,92 @@ export default {
     '@/assets/sass/style.scss'
   ],
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
-  // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+  plugins: ['~/plugins/jsonld'],
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: {
+    dirs: [
+      '~/components',
+      '~/components/Layout',
+    ]
+  },
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [["@nuxtjs/prismic", {
-    endpoint: smConfig.apiEndpoint || "",
+  buildModules: ['@nuxtjs/prismic'],
+  prismic: {
+    endpoint: smConfig.apiEndpoint,
+    modern: true,
     apiOptions: {
-      routes: [{
-        type: "page",
-        path: "/:uid"
-      }]
+      routes: [
+        {
+          type: 'homepage',
+          path: '/',
+        },
+        {
+          type: 'page',
+          path: '/:grandparent?/:parent?/:uid',
+          resolvers: {
+            grandparent: 'parent.parent',
+            parent: 'parent',
+          },
+        },
+      ],
     }
-  }],
+  },
+  // Modules (https://go.nuxtjs.dev/config-modules)
+  modules: [
+    [
+      "@nuxtjs/prismic"
+    ],
     ["nuxt-sm"],
     ["@nuxtjs/sitemap"],
     ['@nuxtjs/robots']],
   sitemap: {
-    hostname: 'https://bcdrafting-dev.netlify.app',
+    hostname: 'https://bcdrafting.com',
     gzip: true,
     exclude: [
       '/preview',
       '/slice-simulator'
-    ],
-    // routes: async () => {
-    //   const api = await Prismic.getApi(sm.apiEndpoint)
-    //   const pages = await api.query(Prismic.Predicate.at("document.type", "pages"));
-    //   return [...pages.map((i) => `/${i.uid}`)];
-    // },
+    ]
   },
   generate: {
-    fallback: true
+    fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA
+    routes: async function () {
+      const ref = await axios.get(smConfig.apiEndpoint).then((res) => {
+        for (let index = 0; index < res.data.refs.length; index++) {
+          if (res.data.refs[index].isMasterRef) {
+            return res.data.refs[index].ref
+          }
+        }
+      })
+
+      const pages = axios
+        .get(
+          smConfig.apiEndpoint +
+          '/documents/search?ref=' +
+          ref +
+          '&pageSize=100&q=[[at(document.type,"page")]]&fetchLinks=page.parent#format=json'
+        )
+        .then((res) => {
+          return res.data.results.map((doc) => {
+            if (hasGrandparent(doc)) {
+              return `/${doc.data.parent.data.parent.uid}/${doc.data.parent.uid}/${doc.uid}`
+            } else if (hasParent(doc)) {
+              return `/${doc.data.parent.uid}/${doc.uid}`
+            } else {
+              return `/${doc.uid}`
+            }
+          })
+        })
+
+      // generate routes
+      return Promise.all([pages]).then((values) => {
+        let array = values.join().split(',')
+        return array
+      })
+    },
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    transpile: ["vue-slicezone", "nuxt-sm"],
+    transpile: ['vue-slicezone', 'nuxt-sm', '@prismicio/vue'],
     loaders: {
       sass: {
         implementation: require('sass'),
@@ -83,5 +137,36 @@ export default {
         'postcss-custom-properties': false
       }
     },
+  },
+    netlifyFiles: {
+      netlifyToml: {
+        headers: [
+          {
+            for: '/*',
+            values: { 'X-XSS-Protection': '1; mode=block' },
+          },
+        ],
+        redirects: prismicRedirects,
+      },
+    },
+}
+
+function hasGrandparent(doc) {
+  if (hasProp(doc.data.parent, 'data')) {
+    if (hasProp(doc.data.parent.data, 'parent')) {
+      return true
+    } else {
+      return false
+    }
+  } else {
+    return false
   }
-};
+}
+
+function hasParent(doc) {
+  return hasProp(doc.data.parent, 'uid')
+}
+
+function hasProp(obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop)
+}
